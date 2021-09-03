@@ -1,0 +1,8 @@
+.next
+.idea
+public/ui
+public/sw*
+public/workbox*
+.DS_Store
+out/
+node_modules
