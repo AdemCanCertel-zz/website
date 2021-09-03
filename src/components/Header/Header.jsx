@@ -14,7 +14,7 @@ export default function Header() {
                     <a className="hover:bg-gray-400 p-4  px-4 py-4 rounded-lg">About</a>
                 </Link>
             </nav>
-            <hr className="mt-4 opacity-30" />
+            <hr className="mt-4 opacity-20" />
         </header>
     )
 }
