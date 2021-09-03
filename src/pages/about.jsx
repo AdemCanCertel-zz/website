@@ -17,10 +17,10 @@ export default function AboutPage() {
                 <p className="mt-2">
                 The code editor I always use <a className="vsc" href="https://code.visualstudio.com/">Visual Studio Code</a>
                 <div className="mt-2 space-y-2 underline">
-                    <li><a href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark">Atom One Dark Theme</a></li>
-                    <li><a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">Night Owl</a></li>
-                    <li><a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">TailwindCSS IntelliSense</a></li>
-                    <li><a href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview">MobileView</a></li>
+                    <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark">Atom One Dark Theme</a></li>
+                    <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">Night Owl</a></li>
+                    <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">TailwindCSS IntelliSense</a></li>
+                    <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview">MobileView</a></li>
                 </div>
                 </p>
             </dv>

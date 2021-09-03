@@ -4,7 +4,7 @@ body {
     background-color: #14223D;
     color: white;
 }
-.vsc {
+.vsc, .extensions {
     color: #56ACE6;
     text-decoration: underline;
 }
