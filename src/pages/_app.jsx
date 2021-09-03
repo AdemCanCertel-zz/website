@@ -1,6 +1,14 @@
-import 'tailwindcss/tailwind.css'
+import '../assets/css/global.css'
+import css from '../assets/css/main.css'
+import Header from '../components/Header/Header'
 
-function myApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+export default function myApp({ Component, pageProps }) {
+    return (
+    <div>
+        <Header/>
+        <min>
+    <Component {...pageProps} />
+        </min>
+    </div>
+    )
 }
-export default myApp
