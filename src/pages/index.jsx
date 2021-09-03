@@ -1,4 +1,4 @@
 function HomePage() {
-    return <div>Hello, world!</div>
-}
+    return <div className="text-green-400">Hello, world!</div>
+} 
 export default HomePage
