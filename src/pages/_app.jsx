@@ -6,9 +6,9 @@ export default function myApp({ Component, pageProps }) {
     return (
     <div>
         <Header/>
-        <min>
+        <main>
     <Component {...pageProps} />
-        </min>
+        </main>
     </div>
     )
 }
