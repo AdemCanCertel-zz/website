@@ -1,5 +1,6 @@
 import 'react-tippy/dist/tippy.css';
 import { Tooltip, withTooltip } from 'react-tippy';
+import image from 'next/image';
 
 export default function AboutPage() {
     return (
@@ -12,6 +13,12 @@ export default function AboutPage() {
                 I'm mostly focused on JavaScript, doing web projects through JavaScript. I'm learning TypeScript now.
                 </p>
             </div>
+        </div>
+
+        <div className="full-container flex mt-3">
+            <a href="">
+            
+            </a>
         </div>
 
         <div className="full-container mt-16">

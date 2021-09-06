@@ -13,3 +13,6 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.ionicon {
+    color: white;
+}
