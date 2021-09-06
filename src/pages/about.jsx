@@ -17,7 +17,7 @@ export default function AboutPage() {
 
         <div className="full-container flex mt-3">
             <a href="">
-            
+                
             </a>
         </div>
 
