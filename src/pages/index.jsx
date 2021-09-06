@@ -3,6 +3,7 @@ import Tech from '../components/Tech';
 
 export default function HomePage() {
     return  (
+    <>
         <main>
         <div className="full-container flex">
             <div className="space-y-4">
@@ -19,5 +20,6 @@ export default function HomePage() {
             <Tech/>
         </div>
         </main>
+    </>
     )
 } 

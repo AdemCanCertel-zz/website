@@ -2,7 +2,10 @@ import { getAllNodes } from "next-mdx/server"
 
 function BlogPage() {
     return (
+      <>
         <h1>Hello ,wrodl1</h1>
+
+      </>
     )
 }
 

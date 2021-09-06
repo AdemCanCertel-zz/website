@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
+    <>
         <header className="full-container py-10">
             <nav className="space-x-5 flex">
                 <Link href="/">
@@ -17,5 +18,6 @@ export default function Header() {
             </nav>
             <hr className="mt-4 opacity-20" />
         </header>
+    </>
     )
 }

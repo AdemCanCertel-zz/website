@@ -4,6 +4,7 @@ import { Tooltip, withTooltip } from 'react-tippy';
 
 export default function Tech() {
     return(
+    <>
         <div className="mt-40">
         <div>
             <h1 className="font-semibold text-3xl text-white">Technologies I use</h1>
@@ -51,5 +52,7 @@ export default function Tech() {
             </div>
         </div>
     </div>
+
+    </>
     )
 }

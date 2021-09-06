@@ -4,6 +4,7 @@ import image from 'next/image';
 
 export default function AboutPage() {
     return (
+    <>
     <main>
         <div className="full-container">
             <div className="mt-4">
@@ -48,5 +49,6 @@ export default function AboutPage() {
             </dv>
         </div>
     </main>
+    </>
     )
 }
