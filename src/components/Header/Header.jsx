@@ -13,7 +13,7 @@ export default function Header() {
                 </Link>
                 <Link href="/about">
                     <a className="hover:bg-gray-400 rounded py-1 px-2">About</a>
-                </Link>
+                </Link>        
             </nav>
             <hr className="mt-4 opacity-20" />
         </header>
