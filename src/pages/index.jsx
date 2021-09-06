@@ -8,7 +8,7 @@ export default function HomePage() {
             <div className="space-y-4">
             <h1 className="text-4xl font-semibold text-white"><Link href="/">Hi, I'm AdemCan Certel</Link></h1>
             <p className="mt-5 font-normal leading-relaxed">
-                Hi, I'm Front End and a high school student, 
+                Hi, I'm Front End Developer and a high school student, 
                 I have about 5 years of experience with JavaScript. 
                 NextJS, NuxtJS, ReactJS are the technologies I use all the time. <Link href="/about">(Would you like to learn more about me)</Link>
             </p>
