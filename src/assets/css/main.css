@@ -8,3 +8,8 @@ body {
     color: #56ACE6;
     text-decoration: underline;
 }
+.lang{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

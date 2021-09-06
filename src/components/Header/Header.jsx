@@ -7,7 +7,7 @@ export default function Header() {
                 <Link href="/">
                     <a className="hover:bg-gray-400 p-4 px-4 py-4 rounded-lg">Home</a>
                 </Link>
-                <Link href="/blog">
+                <Link href="">
                     <a className="hover:bg-gray-400 p-4 px-4 py-4 rounded-lg">Blog</a>
                 </Link>
                 <Link href="/about">
