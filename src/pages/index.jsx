@@ -4,7 +4,7 @@ import Tech from '../components/Tech';
 export default function HomePage() {
     return  (
         <main>
-        <div className="full-container">
+        <div className="full-container flex">
             <div className="space-y-4">
             <h1 className="text-4xl font-semibold text-white"><Link href="/">Hi, I'm AdemCan Certel</Link></h1>
             <p className="mt-5 font-normal leading-relaxed">
