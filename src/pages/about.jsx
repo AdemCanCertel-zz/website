@@ -42,7 +42,10 @@ export default function AboutPage() {
                 <p className="mt-2">
                 The code editor I always use <a className="vsc" href="https://code.visualstudio.com/">Visual Studio Code</a>
                 <div className="mt-2 space-y-2 underline">
-                    <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark"><Tooltip title="Click Me!" animation="scale">Atom One Dark Theme</Tooltip></a></li>
+                        <div className="flex flex-row p-4 bg-gray-900 rounded-lg border border-gray-800 w-full text-left space-x-2">
+                            <img src=""/>
+                            <li className="square list-none"><a href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark" className="extensions"><Tooltip title="Click Me!" animation="scale">Atom Dark Theme</Tooltip></a></li>
+                        </div>
                     <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl"><Tooltip title="Click Me!" animation="scale">Night Owl</Tooltip></a></li>
                     <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss"><Tooltip title="Click Me!" animation="scale">TailwindCSS IntelliSense</Tooltip></a></li>
                     <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview"><Tooltip title="Click Me!" animation="scale">MobileView</Tooltip></a></li>
