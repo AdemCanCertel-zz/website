@@ -37,6 +37,8 @@ export default function AboutPage() {
         <div className="full-container mt-16">
             <dv className="mt-4">
                 <h2 className="text-4xl font-semibold">Tools</h2>
+                    <hr className="opacity-50 w-1/6" />
+                    <p className="font-light text-sm mt-2">A list of my favorite tools that I use regularly and recommend you try.</p>
                 <p className="mt-2">
                 The code editor I always use <a className="vsc" href="https://code.visualstudio.com/">Visual Studio Code</a>
                 <div className="mt-2 space-y-2 underline">
@@ -44,6 +46,25 @@ export default function AboutPage() {
                     <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl"><Tooltip title="Click Me!" animation="scale">Night Owl</Tooltip></a></li>
                     <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss"><Tooltip title="Click Me!" animation="scale">TailwindCSS IntelliSense</Tooltip></a></li>
                     <li type="square"><a className="extensions" href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview"><Tooltip title="Click Me!" animation="scale">MobileView</Tooltip></a></li>
+                </div>
+                <p className="mt-4 font-semibold">Some applications I use on the computer</p>
+                <div className="mt-2 space-y-2 underline">
+                    <div className="flex flex-row p-4 bg-gray-900 rounded-lg border border-gray-800 w-full text-left space-x-2">
+                        <img src="https://i.pinimg.com/originals/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.png" className="w-12 h-12"/>
+                        <li className="square list-none"><a href="" className="extensions"><Tooltip title="Click Me!" animation="scale">Figma</Tooltip></a></li>
+                    </div>
+                    <div className="flex flex-row p-4 bg-gray-900 rounded-lg border border-gray-800 w-full text-left space-x-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" className="w-12 h-12"/>
+                        <li className="square list-none"><a href="" className="extensions"><Tooltip title="Click Me!" animation="scale">GitHub Desktop</Tooltip></a></li>
+                    </div>
+                    <div className="flex flex-row p-4 bg-gray-900 rounded-lg border border-gray-800 w-full text-left space-x-2">
+                        <img src="https://cdn-images-1.medium.com/max/184/1*eT1vA87AVmUeujURPbFObg@2x.png" className="w-12 h-12" />
+                        <li className="square list-none"><a href="" className="extensions"><Tooltip title="Click Me!" animation="scale">ProtoPie</Tooltip></a></li>
+                    </div>
+                    <div className="flex flex-row p-4 bg-gray-900 rounded-lg border border-gray-800 w-full text-left space-x-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/2048px-Google_Chrome_icon_%28September_2014%29.svg.png" className="w-12 h-12"/>
+                        <li className="square list-none"><a href="" className="extensions"><Tooltip title="Click Me!" animation="scale">Google Chrome</Tooltip></a></li>
+                    </div>
                 </div>
                 </p>
             </dv>
