@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Tech from '../components/Tech';
+import Repo from '../components/Repository/Repo';
 
 export default function HomePage() {
     return  (
@@ -18,6 +19,10 @@ export default function HomePage() {
         
         <div className="full-container mt-10">
             <Tech/>
+        </div>
+
+        <div className="full-container mt-20">
+            <Repo/>
         </div>
         </main>
     </>
