@@ -17,8 +17,3 @@
 
 ### Thanks
 [Tailwind CSS](https://tailwindcss.com/)
-
-
-
-
-    
