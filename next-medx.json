@@ -1,8 +1,0 @@
-{
-    "post": {
-      "contentPath": "content",
-      "basePath": "src/pages/blog",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    }
-  }
