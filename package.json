@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "",
+  "description": "They are the source code for my personal web page. Everything is available. NextJS is made using Tailwind CSS technologies.",
   "main": "",
   "repository": "https://github.com/AdemCanCertel/website.git",
   "author": {
