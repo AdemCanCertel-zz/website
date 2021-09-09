@@ -9,7 +9,7 @@ export default function Header() {
                 <Link href="/">
                     <a className="hover:bg-gray-400 rounded py-1 px-2">Home</a>
                 </Link>
-                <Link href="">
+                <Link href="https://ademcancerteldev.medium.com/">
                     <a className="hover:bg-gray-400 rounded py-1 px-2">Blog</a>
                 </Link>
                 <Link href="/about">

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Tech from '../components/Tech';
 import Repo from '../components/Repository/Repo';
+import Edu from '../components/Education';
 
 export default function HomePage() {
     return  (
@@ -24,7 +25,19 @@ export default function HomePage() {
         <div className="full-container mt-20">
             <Repo/>
         </div>
+
+        <div className="full-container mt-10">
+            <Edu/>
+        </div>
         </main>
+
+        <footer className="w-full bottom-0 text-white bg-gray-900 bg-opacity-50">
+            <div className="py-3 px-3 mx-auto flex items-center sm:flex-row flex-col">
+                <p className="text-sm font-semibold sm:ml-2 sm:pl-4 sm:mt-1 mt-4">
+                    © 2021 AdemCan Certel - <a href="https://github.com/AdemCanCertel/website">This site is open-source on</a>
+                </p>
+            </div>
+        </footer>
     </>
     )
 } 
