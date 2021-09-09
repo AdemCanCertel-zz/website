@@ -1,7 +1,7 @@
-### ✨ My personal site
+# ✨ My personal site
     [website](./public/ademcan.png)
 
-### 🧱 Getting Started
+#🧱 Getting Started
     * First of all clone the project to your device `git clone https://github.com/AdemCanCertel/website.git`
 
     * Download the project
