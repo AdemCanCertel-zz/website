@@ -13,7 +13,7 @@
         - `npm run generate`
         - `npm run build`
 
-[NuxtJS Docs.](https://nuxtjs.org/)
+[Next.js Docs](https://nextjs.org/docs)
 
 ### Thanks ❤️
 [Tailwind CSS](https://tailwindcss.com/) 
