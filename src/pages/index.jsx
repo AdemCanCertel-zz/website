@@ -2,10 +2,20 @@ import Link from 'next/link';
 import Tech from '../components/Tech';
 import Repo from '../components/Repository/Repo';
 import Edu from '../components/Education';
+import Head from 'next/head';
 
 export default function HomePage() {
     return  (
     <>
+      <Head>
+            <link rel="shortcut icon" href="https://media.discordapp.net/attachments/870311702347018250/884454889240006716/Bugs_Banny-AdemCan.jpg" />
+            <title>Home - AdemCan C.</title>
+            <meta name="description" content="A young student who knows JavaScript and loves programming." />
+            <meta name="keywords" content="ademcan, frontend, ademcandev" />
+            <meta name="theme-color" content="#41B883"/>
+            <meta property="og:image"content="https://media.discordapp.net/attachments/870311702347018250/884454889240006716/Bugs_Banny-AdemCan.jpg" />
+        </Head>
+
         <main>
         <div className="full-container flex">
             <div className="space-y-4">

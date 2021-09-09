@@ -1,10 +1,19 @@
 import 'react-tippy/dist/tippy.css';
 import { Tooltip, withTooltip } from 'react-tippy';
 import image from 'next/image';
+import Head from 'next/head'
 
 export default function AboutPage() {
     return (
     <>
+     <Head>
+            <link rel="shortcut icon" href="https://media.discordapp.net/attachments/870311702347018250/884454889240006716/Bugs_Banny-AdemCan.jpg" />
+            <title>About - AdemCan C.</title>
+            <meta name="description" content="Would you like to know more about me?" />
+            <meta name="keywords" content="ademcan, frontend, ademcandev, about, information" />
+            <meta name="theme-color" content="#41B883"/>
+            <meta property="og:image"content="https://media.discordapp.net/attachments/870311702347018250/884454889240006716/Bugs_Banny-AdemCan.jpg" />
+        </Head>
     <main>
         <div className="full-container">
             <div className="mt-4">
