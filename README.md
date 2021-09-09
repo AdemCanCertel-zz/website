@@ -1,5 +1,5 @@
 ### ✨ My personal site
-<img src="./public/ademcan.png"/>
+<img src="./demo/website_img.png"/>
 
 ### 🧱 Getting  Started
   - First of all clone the project to your device 
