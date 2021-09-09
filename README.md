@@ -1,6 +1,5 @@
 ### ✨ My personal site
-    <img src="./public/ademcan.png"/>
-
+    
 ### 🧱 Getting Started
     - First of all clone the project to your device 
        - git clone https://github.com/AdemCanCertel/website.git
@@ -15,10 +14,5 @@
 
 [Next.js Docs](https://nextjs.org/docs)
 
-### Thanks
+### Thanks ❤️
 [Tailwind CSS](https://tailwindcss.com/)
-
-
-
-
-    
