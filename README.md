@@ -13,7 +13,8 @@
         - `npm run generate`
         - `npm run build`
 
-[Next.js Docs](https://nextjs.org/docs)
+[Next.js Docs](https://nextjs.org/docs), 
+
 [Next.js TypeScript Docs](https://nextjs.org/docs/basic-features/typescript)
 
 ### Thanks ❤️
